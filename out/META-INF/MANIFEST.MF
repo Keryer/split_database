@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Main-Class: org.example.Transfer
+Class-Path: spring-boot-starter-logging-2.4.5.jar hamcrest-core-2.2.jar 
+ lombok-1.18.20.jar jul-to-slf4j-1.7.30.jar jsqlparser-4.3.jar spring-we
+ b-5.3.6.jar jackson-datatype-jdk8-2.11.4.jar jackson-datatype-jsr310-2.
+ 11.4.jar spring-boot-starter-tomcat-2.4.5.jar jakarta.el-3.0.3.jar spri
+ ng-boot-starter-json-2.4.5.jar jackson-databind-2.11.4.jar jakarta.anno
+ tation-api-1.3.5.jar tomcat-embed-websocket-9.0.45.jar jackson-core-2.1
+ 1.4.jar logback-classic-1.2.3.jar spring-aop-5.3.6.jar mysql-connector-
+ java-8.0.23.jar spring-boot-2.4.5.jar hamcrest-2.2.jar HikariCP-3.4.5.j
+ ar mybatis-plus-extension-3.5.1.jar logback-core-1.2.3.jar log4j-to-slf
+ 4j-2.13.3.jar jackson-module-parameter-names-2.11.4.jar spring-expressi
+ on-5.3.6.jar aspectjweaver-1.9.6.jar dynamic-datasource-spring-boot-sta
+ rter-3.5.2.jar log4j-api-2.13.3.jar snakeyaml-1.27.jar mybatis-3.5.9.ja
+ r spring-boot-starter-jdbc-2.4.5.jar spring-boot-starter-web-2.4.5.jar 
+ spring-core-5.3.6.jar spring-context-5.3.6.jar tomcat-embed-core-9.0.45
+ .jar mybatis-plus-3.4.2.jar spring-tx-5.3.6.jar spring-jdbc-5.3.6.jar m
+ ybatis-spring-2.0.6.jar slf4j-api-1.7.30.jar mybatis-plus-annotation-3.
+ 5.1.jar jackson-annotations-2.11.4.jar spring-beans-5.3.6.jar druid-spr
+ ing-boot-starter-1.1.9.jar spring-boot-autoconfigure-2.4.5.jar junit-4.
+ 13.2.jar spring-webmvc-5.3.6.jar spring-boot-starter-2.4.5.jar spring-j
+ cl-5.3.6.jar mybatis-plus-core-3.5.1.jar druid-1.1.9.jar spring-boot-st
+ arter-aop-2.4.5.jar mybatis-plus-boot-starter-3.4.2.jar
+

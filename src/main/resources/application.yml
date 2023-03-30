@@ -1,0 +1,149 @@
+server:
+    port: 18000
+spring:
+    primary: sourcedb
+    datasource:
+        dynamic:
+#            druid:
+#                initial-size: 5
+#                max-active: 8
+#                min-idle: 3
+#                max-wait: 1000
+#                validation-query: 'select 1'
+            hikari:
+                target23jan:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33023/january?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target23feb:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33023/february?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target23mar:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33023/march?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target23apr:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33023/april?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target23may:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33023/may?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target23jun:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33023/june?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target23jul:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33023/july?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target23aug:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33023/august?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target23sep:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33023/september?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target23oct:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33023/october?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target23nov:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33023/november?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target23dec:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33023/december?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target22jan:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33022/january?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target22feb:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33022/february?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target22mar:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33022/march?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target22apr:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33022/april?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target22may:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33022/may?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target22jun:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33022/june?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target22jul:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33022/july?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target22aug:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33022/august?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target22sep:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33022/september?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target22oct:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33022/october?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target22nov:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33022/november?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                target22dec:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33022/december?ServerTimeZone=UTC
+                    username: root
+                    password: root
+                sourcedb:
+                    driver-class-name: com.mysql.cj.jdbc.Driver
+                    jdbcUrl: jdbc:mysql://192.168.3.200:33000/dayoudan_order_prod?ServerTimeZone=UTC
+                    username: root
+                    password: root
+    jmx:
+        default-domain: 1
+
+mybatis-plus:
+    global-config:
+        db-config:
+            id-type: ASSIGN_ID
+    configuration:
+        map-underscore-to-camel-case: false
+        #log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    type-aliases-package: org.example.entity.order
