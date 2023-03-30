@@ -1,6 +1,5 @@
 package org.example;
 
-
 import lombok.extern.slf4j.Slf4j;
 import org.example.config.CorsConfig;
 import org.example.controller.TargetOrderController;
@@ -11,7 +10,6 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Import;
 import org.springframework.scheduling.annotation.EnableScheduling;
-
 import java.io.IOException;
 
 @Slf4j
